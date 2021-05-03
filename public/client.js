@@ -11,12 +11,6 @@ do {
     names = prompt('enter your name')
 } while (!names)
 
-// textArea.addEventListener("keyup", e => {
-//     if(e.key==='Enter'){
-//         console.log(e.target.value)
-//         sendMessage(e.target.value)
-//     }
-// })
 
 textArea.addEventListener("keyup", (e) => {
     if (e.key === 'Enter') {
